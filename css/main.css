@@ -465,7 +465,7 @@ section.login form > label input {
   border: 0;
   border-bottom: 1px solid #fff;
 }
-section.login form > label:hover .label-title {
+section.login form > label:hover .label-title, section.login form > label.hasValue .label-title {
   top: -15px;
   color: #CACACA;
   font-size: 13px;
@@ -474,7 +474,7 @@ section.login form > label:hover .label-title {
   -webkit-transform: translateX(0);
   transform: translateX(0);
 }
-section.login form > label:hover .label-title span {
+section.login form > label:hover .label-title span, section.login form > label.hasValue .label-title span {
   display: inline;
 }
 section.login form > div label {
