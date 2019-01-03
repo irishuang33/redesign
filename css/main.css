@@ -315,11 +315,11 @@ section.landing .logo-set {
   flex-direction: column;
 }
 section.landing .logo-set img.slogan {
-  height: 47px;
+  height: 65px;
   align-self: flex-end;
 }
 section.landing .logo-set img.logo {
-  height: 35px;
+  height: 50px;
 }
 section.landing .login {
   width: 100%;
