@@ -11,7 +11,7 @@
 		<section class="login-chart login">
 			<div class="container">
 				<div class="flex">
-					<div class="prev-btn">
+					<div class="prev-btn" onclick="history.back();">
 						<span></span><span></span><span></span>
 					</div>
 					<h2 class="page-title">
@@ -24,7 +24,7 @@
 					<form action="checkCode.html">
 						<div>
 							<label for="phone">
-								<input type="radio" placeholder="">手機簡訊認證
+								<input type="radio" name="phoneGroup" id="phone">手機簡訊認證
 							</label>
 							<div class="description">
 								為了確保會員切身的權益，我們已經使用傳送短訊的方式，發送認證碼至 0921183119
@@ -32,7 +32,7 @@
 						</div>
 						<div>
 							<label for="qans">
-								<input type="radio" placeholder="">手機簡訊認證
+								<input type="radio" name="phoneGroup" id="qans">回答安全提示問題
 							</label>
 							<div class="description">
 								回答註冊時設定的安全提示問題，回答正確即可線上設定新密碼。
